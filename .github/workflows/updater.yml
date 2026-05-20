@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate and commit metrics
-        uses: IzonIcy/metrics-generator/action.yml@main
+        uses: IzonIcy/metrics-generator@main
         with:
           target_repository: IzonIcy/IzonIcy
           target_branch: main
