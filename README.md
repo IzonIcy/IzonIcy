@@ -1,4 +1,4 @@
-Hi, I'm Ryan Bahadori. High school student, techie, and full-stack dev from California — I like building low-level tools that feel fast.
+Hi, I'm Ryan Bahadori. High school student, techie, and full-stack dev from California, I like building low-level tools that feel fast.
 
 Currently working on:
 - **Mist** — a tiling window manager for macOS, in Swift
