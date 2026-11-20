@@ -1,12 +1,12 @@
 Hi, I'm Ryan Bahadori. I build low-level tools and write them so they can be read: a C compiler, a terminal emulator, a tiling window manager. Most of what is here started as "the existing one is annoying to understand."
 
-**Now:** cutting [LumiComp](https://github.com/IzonIcy/LumiComp) v0.1.0, a C compiler in C that carries a subset of the language from source to readable textual IR. Lexer, preprocessor, parser, semantic analysis, code generator. Built with `make`, tested with `make verify`.
+**Now:** [LumiComp](https://github.com/IzonIcy/LumiComp) v0.2.0, a C compiler in C that carries a subset of the language from source to readable textual IR and then to x86-64 assembly you can assemble and run. Lexer, preprocessor, parser, semantic analysis, code generator, stack-slot backend. Built with `make`, tested with `make verify`.
 
 ## Projects
 
 | Project | What it is | Demo |
 | --- | --- | --- |
-| [LumiComp](https://github.com/IzonIcy/LumiComp) | C compiler in C with a five-stage pipeline and readable IR | `make && ./build/bin/C-Compiler codegen examples/feature_showcase.c` |
+| [LumiComp](https://github.com/IzonIcy/LumiComp) | C compiler in C, five-stage pipeline, readable IR, x86-64 assembly | [v0.2.0 release](https://github.com/IzonIcy/LumiComp/releases/tag/v0.2.0) |
 | [LumiTerm](https://github.com/IzonIcy/LumiTerm) | GPU-rendered terminal emulator in Rust, real PTY, vt100 parsing | [v0.1.0 release](https://github.com/IzonIcy/LumiTerm/releases/tag/v0.1.0) |
 | [Mist](https://github.com/IzonIcy/Mist) | Tiling window manager for macOS, Swift, no third-party deps | [v0.1.2 release](https://github.com/IzonIcy/Mist/releases/tag/v0.1.2) |
 | [FabOps Sentinel](https://github.com/IzonIcy/Hackathon-Ryan-June) | Vision monitoring for 3D printers and CNC machines, with SMS alerts | [source](https://github.com/IzonIcy/Hackathon-Ryan-June) |
