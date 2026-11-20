@@ -1,18 +1,32 @@
-Hi, I'm Ryan Bahadori. High school student, techie, and full-stack dev from California. I like building low-level tools that feel fast.
+Hi, I'm Ryan Bahadori. I build low-level tools and write them so they can be read: a C compiler, a terminal emulator, a tiling window manager. Most of what is here started as "the existing one is annoying to understand."
 
-What I'm building:
+**Now:** cutting [LumiComp](https://github.com/IzonIcy/LumiComp) v0.1.0, a C compiler in C that carries a subset of the language from source to readable textual IR. Lexer, preprocessor, parser, semantic analysis, code generator. Built with `make`, tested with `make verify`.
 
-- **Mist** — a tiling window manager for macOS. Swift, no third-party dependencies. BSP layout, hotkeys, focus-follows-mouse.
-- **LumiComp** — a C compiler in C with lexing, preprocessing, parsing, semantic analysis, and IR generation.
-- **Lumi-Term** — a GPU-accelerated terminal emulator in Rust with a real PTY and VT parsing.
-- **FabOps Sentinel** — vision monitoring for 3D printers, laser cutters, and CNC machines. Texts you when a job goes wrong.
-- **infrastructure-cost-visualizer** — cloud cost dashboard comparing on-demand, reserved, and spot pricing with 12-month projections.
-- **Ai-Chef** — terminal cooking assistant that plans meals from ingredients you already have.
-- **UnHeard-Voices** — interactive timeline and constellation of history that gets skipped.
+## Projects
 
-Stack: Rust · Swift · TypeScript · C · Python · Astro
+| Project | What it is | Demo |
+| --- | --- | --- |
+| [LumiComp](https://github.com/IzonIcy/LumiComp) | C compiler in C with a five-stage pipeline and readable IR | `make && ./build/bin/C-Compiler codegen examples/feature_showcase.c` |
+| [LumiTerm](https://github.com/IzonIcy/LumiTerm) | GPU-rendered terminal emulator in Rust, real PTY, vt100 parsing | [v0.1.0 release](https://github.com/IzonIcy/LumiTerm/releases/tag/v0.1.0) |
+| [Mist](https://github.com/IzonIcy/Mist) | Tiling window manager for macOS, Swift, no third-party deps | [v0.1.2 release](https://github.com/IzonIcy/Mist/releases/tag/v0.1.2) |
+| [FabOps Sentinel](https://github.com/IzonIcy/Hackathon-Ryan-June) | Vision monitoring for 3D printers and CNC machines, with SMS alerts | [source](https://github.com/IzonIcy/Hackathon-Ryan-June) |
+| [Ai-Chef](https://github.com/IzonIcy/Ai-Chef) | Terminal cooking assistant that matches recipes to what is in your kitchen | [v1.2.0 release](https://github.com/IzonIcy/Ai-Chef/releases/tag/v1.2.0) |
+| [Cloud Spend Planning Desk](https://github.com/IzonIcy/infrastructure-cost-visualizer) | Browser-based cloud cost estimator, three pricing models | [live](https://infrastructure-cost-visualizer.vercel.app) |
+| [Unheard Voices](https://github.com/IzonIcy/UnHeard-Voices) | Canvas 2D timeline of 60 overlooked historical events | [live](https://un-heard-voices-8xof.vercel.app) |
+| [Portfolio](https://github.com/IzonIcy/Portfolio) | Personal site, Astro 7 | [live](https://portfolio-ecru-rho-94.vercel.app/) |
 
-Portfolio: https://portfolio-ecru-rho-94.vercel.app/
+## Upstream
+
+Three pull requests merged into [athas](https://github.com/athasdev/athas), a Tauri code editor:
+
+- [#765](https://github.com/athasdev/athas/pull/765) return the formatted file for file-output formatters
+- [#739](https://github.com/athasdev/athas/pull/739) fix broken vim ex commands (`:w`, `:wq`, `:q!`, line jumps)
+- [#733](https://github.com/athasdev/athas/pull/733) align stores with `createSelectors` and centralize row line-height
+
+Ten more pull requests to [t3code](https://github.com/pingdotgg/t3code) went through review and were closed rather than merged.
+
+Stack: C · Rust · Swift · TypeScript · Python · Astro
+
 Email: ryanbahadori74@gmail.com
 
-Open to internships. If it's interesting, I'm in.
+Open to internships. If it is interesting, I am in.
